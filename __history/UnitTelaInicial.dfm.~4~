@@ -1,0 +1,21 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'EscolaDevs'
+  ClientHeight = 442
+  ClientWidth = 1051
+  Color = clGradientActiveCaption
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -27
+  Font.Name = 'Segoe UI'
+  Font.Style = [fsBold]
+  TextHeight = 37
+  object Label1: TLabel
+    Left = 32
+    Top = 32
+    Width = 249
+    Height = 37
+    Caption = 'Cadastro de Alunos'
+  end
+end

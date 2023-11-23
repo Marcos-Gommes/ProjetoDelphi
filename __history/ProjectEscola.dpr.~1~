@@ -1,0 +1,14 @@
+program ProjectEscola;
+
+uses
+  Vcl.Forms,
+  UnitTelaInicial in 'UnitTelaInicial.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

@@ -1,0 +1,18 @@
+program Project1escola;
+
+uses
+  Vcl.Forms,
+  UnitPrincipal in 'UnitPrincipal.pas' {FormPrincipal},
+  Unitcadastro in 'Unitcadastro.pas' {FormCadastro},
+  DMConneted in 'DMConneted.pas' {DataModule1: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFormPrincipal, FormPrincipal);
+  Application.CreateForm(TFormCadastro, FormCadastro);
+  Application.CreateForm(TDataModule1, DataModule1);
+  Application.Run;
+end.

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/11/15 14:36:27.000.587,=C:\Users\lucia\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/15 14:46:54.000.248,C:\Users\lucia\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\lucia\OneDrive\Área de Trabalho\Escola\UnitTelaInicial.dfm</Transaction>
+    <Transaction>2023/11/15 14:46:54.000.248,C:\Users\lucia\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\lucia\OneDrive\Área de Trabalho\Escola\UnitTelaInicial.pas</Transaction>
+    <Transaction>2023/11/15 14:47:43.000.397,C:\Users\lucia\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\lucia\OneDrive\Área de Trabalho\Escola\ProjectEscola.dproj</Transaction>
+    <Transaction>2023/11/15 15:12:24.000.681,=C:\Users\lucia\OneDrive\Área de Trabalho\Escola\Unit1.pas</Transaction>
+    <Transaction>2023/11/15 15:13:49.000.325,C:\Users\lucia\OneDrive\Área de Trabalho\Escola\Unit1.pas=C:\Users\lucia\OneDrive\Área de Trabalho\Escola\UnitDMEsc.pas</Transaction>
+    <Transaction>2023/11/15 15:13:49.000.325,C:\Users\lucia\OneDrive\Área de Trabalho\Escola\Unit1.dfm=C:\Users\lucia\OneDrive\Área de Trabalho\Escola\UnitDMEsc.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

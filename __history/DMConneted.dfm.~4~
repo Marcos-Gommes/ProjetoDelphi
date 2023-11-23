@@ -1,0 +1,31 @@
+object DM: TDM
+  Height = 750
+  Width = 1000
+  PixelsPerInch = 120
+  object conexao: TFDConnection
+    Params.Strings = (
+      'Database=EscolaDevs'
+      'User_Name=sa'
+      'Password=123'
+      'Server=DESKTOP-OSD1MHH'
+      'DriverID=MSSQL')
+    Connected = True
+    LoginPrompt = False
+    Left = 64
+    Top = 160
+  end
+  object tblCadastro: TFDTable
+    Active = True
+    IndexFieldNames = 'id'
+    Connection = conexao
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'EscolaDevs.dbo.tblcadastros'
+    Left = 200
+    Top = 168
+  end
+  object DsCadastro: TDataSource
+    DataSet = tblCadastro
+    Left = 192
+    Top = 248
+  end
+end

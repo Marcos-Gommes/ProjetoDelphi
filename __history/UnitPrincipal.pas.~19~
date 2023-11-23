@@ -1,0 +1,72 @@
+unit UnitPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Menus,
+  Vcl.Imaging.jpeg, Vcl.ExtCtrls, Vcl.Imaging.pngimage;
+
+type
+  TFormPrincipal = class(TForm)
+    MainMenu1: TMainMenu;
+    Cadastro1: TMenuItem;
+    Alunos1: TMenuItem;
+    Alunos2: TMenuItem;
+    Sair1: TMenuItem;
+    Image1: TImage;
+    Professores2: TMenuItem;
+    Pesquisa1: TMenuItem;
+    procedure Sair1Click(Sender: TObject);
+    procedure Alunos1Click(Sender: TObject);
+    procedure Alunos2Click(Sender: TObject);
+    procedure Professores2Click(Sender: TObject);
+    procedure FormCloseQuery(Sender: TObject; var CanClose: Boolean);
+    procedure Pesquisa1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormPrincipal: TFormPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+uses DMConneted, Unitcadastro, UnitPesquisa;
+
+procedure TFormPrincipal.Alunos1Click(Sender: TObject);
+begin
+  FormCadastro.ShowModal;
+end;
+
+procedure TFormPrincipal.Alunos2Click(Sender: TObject);
+begin
+  //FormCadastroProf.ShowModal;
+end;
+
+procedure TFormPrincipal.FormCloseQuery(Sender: TObject; var CanClose: Boolean);
+begin
+  if Application.MessageBox('Deseja mesmo encerrar?', 'Sair', MB_ICONQUESTION+MB_YESNO) <> mrYes then
+    CanClose := False;
+end;
+
+procedure TFormPrincipal.Pesquisa1Click(Sender: TObject);
+begin
+FormPesquisa.ShowModal;
+end;
+
+procedure TFormPrincipal.Professores2Click(Sender: TObject);
+begin
+  //FormCadastroPff.ShowModal;
+end;
+
+procedure TFormPrincipal.Sair1Click(Sender: TObject);
+begin
+  Close;
+end;
+
+end.

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/11/15 18:01:18.000.934,=C:\Users\lucia\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/15 18:15:28.000.867,C:\Users\lucia\OneDrive\Área de Trabalho\escola\UnitPrincipal.dfm=C:\Users\lucia\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/11/15 18:15:28.000.867,C:\Users\lucia\OneDrive\Área de Trabalho\escola\UnitPrincipal.pas=C:\Users\lucia\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/15 18:16:15.000.867,C:\Users\lucia\OneDrive\Área de Trabalho\escola\Project1escola.dproj=C:\Users\lucia\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/11/16 10:57:28.000.651,=C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit1.pas</Transaction>
+    <Transaction>2023/11/16 10:57:57.000.704,=C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit1.pas</Transaction>
+    <Transaction>2023/11/16 11:05:53.000.191,=C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit2.pas</Transaction>
+    <Transaction>2023/11/16 11:10:10.000.450,=C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit3.pas</Transaction>
+    <Transaction>2023/11/16 11:30:33.000.571,=C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit4.pas</Transaction>
+    <Transaction>2023/11/16 11:48:47.000.464,C:\Users\lucia\OneDrive\Área de Trabalho\escola\DMConneted.pas=C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit4.pas</Transaction>
+    <Transaction>2023/11/16 11:48:47.000.464,C:\Users\lucia\OneDrive\Área de Trabalho\escola\DMConneted.dfm=C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit4.dfm</Transaction>
+    <Transaction>2023/11/16 11:56:18.000.604,C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unitcursos.dfm=C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit2.dfm</Transaction>
+    <Transaction>2023/11/16 11:56:18.000.604,C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unitcursos.pas=C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit2.pas</Transaction>
+    <Transaction>2023/11/16 11:56:31.000.607,C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unitcadastro.dfm=C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit1.dfm</Transaction>
+    <Transaction>2023/11/16 11:56:31.000.607,C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unitcadastro.pas=C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit1.pas</Transaction>
+    <Transaction>2023/11/16 11:56:43.000.678,C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unitprofessores.dfm=C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit3.dfm</Transaction>
+    <Transaction>2023/11/16 11:56:43.000.678,C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unitprofessores.pas=C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit3.pas</Transaction>
+    <Transaction>2023/11/16 19:36:21.000.522,=C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit1.pas</Transaction>
+    <Transaction>2023/11/16 19:38:36.000.016,C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit1.dfm=C:\Users\lucia\OneDrive\Área de Trabalho\escola\UnitPesquisa.dfm</Transaction>
+    <Transaction>2023/11/16 19:38:36.000.016,C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit1.pas=C:\Users\lucia\OneDrive\Área de Trabalho\escola\UnitPesquisa.pas</Transaction>
+    <Transaction>2023/11/17 21:30:38.000.689,=C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit1.pas</Transaction>
+    <Transaction>2023/11/17 21:39:31.000.184,=C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit1.pas</Transaction>
+    <Transaction>2023/11/17 21:43:58.000.684,C:\Users\lucia\OneDrive\Área de Trabalho\escola\UnitCadCurso.pas=C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit1.pas</Transaction>
+    <Transaction>2023/11/17 21:43:58.000.684,C:\Users\lucia\OneDrive\Área de Trabalho\escola\UnitCadCurso.dfm=C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit1.dfm</Transaction>
+    <Transaction>2023/11/19 18:32:04.000.802,=C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit1.pas</Transaction>
+    <Transaction>2023/11/19 18:35:57.000.135,C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit1.pas=C:\Users\lucia\OneDrive\Área de Trabalho\escola\UnitCadProfessor.pas</Transaction>
+    <Transaction>2023/11/19 18:35:57.000.135,C:\Users\lucia\OneDrive\Área de Trabalho\escola\Unit1.dfm=C:\Users\lucia\OneDrive\Área de Trabalho\escola\UnitCadProfessor.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,25 @@
+program Project1escola;
+
+uses
+  Vcl.Forms,
+  UnitPrincipal in 'UnitPrincipal.pas' {FormPrincipal},
+  Unitcadastro in 'Unitcadastro.pas' {FormCadastro},
+  DMConneted in 'DMConneted.pas' {DataModule1: TDataModule},
+  UnitPesquisa in 'UnitPesquisa.pas' {FormPesquisa},
+  UnitCadCurso in 'UnitCadCurso.pas' {FormCadCurso},
+  UnitCadProfessor in 'UnitCadProfessor.pas' {FormCadProfessor};
+
+{$R *.res}
+
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFormPrincipal, FormPrincipal);
+  Application.CreateForm(TFormCadastro, FormCadastro);
+  Application.CreateForm(TDataModule1, DataModule1);
+  Application.CreateForm(TFormPesquisa, FormPesquisa);
+  Application.CreateForm(TFormCadCurso, FormCadCurso);
+  Application.CreateForm(TFormCadProfessor, FormCadProfessor);
+  Application.Run;
+end.
